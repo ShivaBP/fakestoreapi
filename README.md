@@ -32,9 +32,11 @@ It performs the following ETL concepts on data accessible from [FakeStore API](h
     python pipeline.py
 
 ## Expected outputs: 
-Raw data -> data/raw/
+A folder named data containing:
 
-Transformed data -> data/processed/
+- Raw data: data/raw/
+
+- Transformed data: data/processed/
 
 
 ## Notes and assumptions:
