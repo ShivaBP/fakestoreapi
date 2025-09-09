@@ -43,3 +43,12 @@ A folder named data containing:
 - Only /products endpoint is used.
 - The metric addressed in data transformation is average price per product.
 - Local storage is used for simplicity. (Further discussion provided in a seperate document)
+
+## Possible improvements:
+- Add error handling
+- Store data in a real database or cloud storage
+- Run on a scheduler (e.g., Airflow)
+- Add monitoring/alerts for API availability
+- Add automated data quality checks
+- Accessibility: consistent naming and structure in the DAG so anyone in the org can find and use it.
+- Scalability: config-based modular DAG
