@@ -24,7 +24,7 @@ It performs the following ETL concepts on data accessible from [FakeStore API](h
 
     -  Create a python virtual environment
     -  Run
-
+        ```bash
         pip install -r requirements.txt
 
 3. Run the pipeline:
